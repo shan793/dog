@@ -1,11 +1,15 @@
 package dog
 
+import "strings"
+
 
 func Mama() string {
 	return "Mama dog protects!"
 }
 
-func Bark() string {
-	return "Woofs *in defiance*!"
+func WhenGrownUp(s string) string {
+	return strings.ToUpper(s) + "in defiance"
 }
+
+
 
